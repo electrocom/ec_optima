@@ -1,0 +1,26 @@
+{
+  "name": "kmkm2/ec_optima",
+  "description": "ec_optima - moduł integracji z Comarch Optima",
+  "homepage": "https://github.com/PrestaShop/formexamples",
+  "license": "AFL - Academic Free License (AFL 3.0)",
+  "authors": [
+    {
+      "name": "kmkm2",
+      "email": "kontakt@electrocom.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PrestaShop\\Module\\Ec_Optima\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "servo/fluidxml": "^1.21"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module"
+}

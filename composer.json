@@ -10,13 +10,16 @@
     }
   ],
   "autoload": {
+
     "psr-4": {
-      "PrestaShop\\Module\\Ec_Optima\\": "src/"
+      "PrestaShop\\Module\\Ec_Optima\\": "src/",
+      "OptimaClientApi\\": "OptimaApiClient/lib/"
     }
   },
   "require": {
     "php": ">=7.1.0",
     "servo/fluidxml": "^1.21"
+
   },
   "config": {
     "preferred-install": "dist",
